@@ -1,0 +1,373 @@
+body{
+  background-color: #656158;
+  box-sizing: border-box;
+}
+
+.main-container{
+  background: #9B978C;
+}
+
+
+.header{
+    width: 326px;
+    height: 30px;  
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.145em;
+    color: #FFFFFF;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+
+}
+.flex-container p{
+  position: absolute;
+  top: 130px; 
+}
+
+.img1{
+    width: 184.44px;
+    height: 179.97px;
+    background: url(yogaman1.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+
+.img2{
+    width: 184.94px;
+    height: 179.97px;
+    background: url(zen1.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    
+}
+
+.img3{
+    width: 199.4px;
+    height: 179.97px;
+    background: url(yogawoman1.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+
+a{
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 100px;
+    height: 10px;
+    background: #FFFFFF;
+    border: 4px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.plan{
+  display: flex;
+  flex-direction: row;
+}
+.plan h3{
+  border-bottom: 1px solid #000000;
+  margin: 25px 25px;
+}
+
+.plan a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9B978C;
+  color: #212636;
+  text-decoration: none;
+}
+
+.third-container h2{
+  width: 500px;
+    height: 50px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.145em;
+    color: #FFFFFF;
+}
+.basic-plan{
+  background-color: #D9D9D9;
+  width: 410px;
+  height: 404px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  text-align: center;
+}
+
+.upgrade-plan {
+  background-color: #D9D9D9;
+  width: 410px;
+  height: 404px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  text-align: center;
+}
+
+.fourt-container{
+  background-color: #E8E7E2;
+}
+.fourt-container h4{
+    width: 519.13px;
+    height: 20px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.145em;
+    color: #6F6B62;
+}
+.fourt-container h5{
+    width: 700px;
+    height: 25px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.145em;
+    color: #000000;
+}
+
+.way{
+    width: 800px;
+    height: 15px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.145em;
+    color: #000000;
+    
+}
+.lorem{
+  width: 1500px;
+  height: 70px;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.145em;
+  border-bottom: 1px solid #656158;
+}
+
+.view{
+  display: flex;
+  flex-direction: row;
+}
+
+.view .icon{
+    width: 24px;
+    height: 24px;
+    background: linear-gradient(0deg, rgba(96, 18, 18, 0.2), rgba(96, 18, 18, 0.2)), url(LoveIt.jpg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 15px;
+}
+
+.bg-img1{
+  width: 270px;
+  height: 190px;
+  background: url(Rectangle7.jpg), #D9D9D9;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.bg-img2{
+  width: 287.63px;
+    height: 218px;
+    background: url(Rectangle8.jpg), #D9D9D9;
+    background-repeat: no-repeat;
+    float: left;
+}
+.bg-img3{
+    width: 287.63px;
+    height: 218px;
+    background: url(Rectangle9.jpg);
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.bg-img4 {
+  width: 287.63px;
+  height: 218px;
+  background: url(Rectangle10.jpg), #D9D9D9;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.bg-img5{
+  width: 287.63px;
+  height: 218px;
+  background: url(Rectangle11.jpg), #D9D9D9;
+  background-repeat: no-repeat;
+  float: left;
+}
+.bg-img6 {
+  width: 287.63px;
+  height: 218px;
+  background: url(Rectangle12.jpg), #D9D9D9;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  align-items: center;
+  justify-items: center;
+}
+.budha{
+  width: 650px;
+  height: 472px;
+  background: rgba(112, 109, 103, 0.8);
+}
+
+.stay{
+  width: 637px;
+  height: 472px;
+  background: #9B978C;
+}
+
+.img{
+  width: 220px;
+  height: 220px;
+  background: url(Ellipse1.jpg);
+  background-repeat: no-repeat;
+}
+.life{
+  width: 450px;
+  height: 50px;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.145em;
+  color: #FFFFFF;
+}
+.life-span{
+  width: 540px;
+  height: 203px;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 200px;
+  text-align: center;
+  letter-spacing: 0.145em;
+  color: #FFFFFF;
+}
+
+.stay h6{
+  width: 596px;
+  height: 50px;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 0.145em;
+  color: #FFFFFF;
+}
+.stay p{
+  width: 621.15px;
+    height: 50px;
+    left: 739.93px;
+    top: 4184px;
+  
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.145em;
+  
+    color: #FFFFFF;
+}
+
+.contact{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  width: 270px;
+  height: 150px;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-decoration-line: underline;
+  color: #F1F1F1;
+}
+
+.footer-icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.foot{
+  width: 296px;
+  height: 45px;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #FFFFFF;
+}
+
+.insta{
+  width: 69px;
+  height: 50px;
+  background: url(Instagram.jpg);
+  background-repeat: no-repeat;
+}
+.google {
+  width: 69px;
+  height: 50px;
+  background: url(Google.png);
+  background-repeat: no-repeat;
+}
+.twitter {
+  width: 69px;
+  height: 50px;
+  background: url(Vector.jpg);
+  background-repeat: no-repeat;
+}
+.facebook {
+  width: 69px;
+  height: 50px;
+  background: url(facebook.jpg);
+  background-repeat: no-repeat;
+}
